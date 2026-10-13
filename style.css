@@ -668,3 +668,438 @@ body {
     left: -1.9rem;
   }
 }
+
+
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-icon {
+  font-size: 24px;
+  color: #333;
+  transition: transform 0.2s ease, color 0.2s ease;
+  text-decoration: none;
+}
+
+.hero-icon:hover {
+  transform: scale(1.2);
+  color: #2563eb; /* Active color on hover */
+}
+
+
+
+
+
+
+.hero.section {
+  min-height: 100vh !important;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('hero section.webp') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #ffffff !important;
+}
+
+.hero.section h1, 
+.hero.section h2, 
+.hero.section p, 
+.hero.section span {
+  color: #ffffff !important;
+}
+
+
+
+
+/* Hero section ke saare icons aur links ko white aur bright banane ke liye */
+.hero-icon, 
+.hero-icon i, 
+.hero-cta i {
+  color: #ffffff !important;
+  font-size: 1.5rem; /* Icon ka size bada karne ke liye */
+  opacity: 1 !important;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* Hover karne par halka blue glow effect */
+.hero-icon:hover i {
+  color: #60a5fa !important;
+  transform: translateY(-2px);
+}
+
+
+
+
+/* Projects Section Background */
+#projects {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('portfolio project image.avif') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important; /* Smooth Parallax Effect */
+  color: #ffffff !important;
+}
+
+/* Projects Title & Text Clarity */
+#projects .section-title,
+#projects h3,
+#projects p {
+  color: #ffffff !important;
+}
+
+/* Project Cards Transparent Glass Look */
+#projects .project-card {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  color: #ffffff !important;
+}
+
+#projects .project-card p {
+  color: #cbd5e1 !important;
+}
+
+
+
+
+/* Projects section ke andar ke links aur buttons ko bright white/blue karne ke liye */
+#projects .project-card a,
+#projects .project-link,
+#projects .project-card .btn {
+  color: #38bdf8 !important; /* Bright Sky Blue */
+  font-weight: 600 !important;
+  text-decoration: underline !important;
+  opacity: 1 !important;
+}
+
+/* Hover karne par aur bright dikhein */
+#projects .project-card a:hover {
+  color: #7dd3fc !important;
+}
+
+
+
+/* Contact Section Background */
+#contact {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('portfolio contact image.webp') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  color: #ffffff !important;
+}
+
+/* Contact Title & Subtext Clarity */
+#contact .section-title,
+#contact h4,
+#contact p {
+  color: #ffffff !important;
+}
+
+/* Contact Cards Glassmorphism Effect */
+#contact .contact-card {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 12px !important;
+}
+
+/* Contact Links Bright White & Blue */
+#contact .contact-card a {
+  color: #38bdf8 !important;
+  font-weight: 500 !important;
+}
+
+#contact .contact-card a:hover {
+  color: #7dd3fc !important;
+}
+
+/* Contact Icons White Color */
+#contact .contact-icon i {
+  color: #ffffff !important;
+}
+
+
+
+
+
+
+
+
+/* Skills Section Background & Image Fix */
+#skills,
+#skills.bg-light {
+  background-color: transparent !important;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.45), rgba(15, 23, 42, 0.45)), url('portfolio background image.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* Skills Section Heading */
+#skills .section-title,
+#skills h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Skills Cards Glassmorphism Override */
+#skills .skill-card {
+  background: rgba(15, 23, 42, 0.65) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+}
+
+#skills .skill-card h3 {
+  color: #ffffff !important;
+}
+
+#skills .skill-icon i {
+  color: #38bdf8 !important;
+}
+
+
+
+
+
+
+
+/* Internship Experience Section Background */
+#experience,
+#experience.section {
+  background-color: transparent !important;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.45), rgba(15, 23, 42, 0.45)), url('portfolio background image.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* Experience Heading Clarity */
+#experience .section-title,
+#experience h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Timeline/Experience Cards Glassmorphism Effect */
+#experience .timeline-content,
+#experience .experience-card {
+  background: rgba(15, 23, 42, 0.65) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+  color: #ffffff !important;
+}
+
+/* Experience Text & Roles Colors */
+#experience .role, 
+#experience h3 {
+  color: #38bdf8 !important; /* Bright Blue */
+}
+
+#experience .company, 
+#experience h4 {
+  color: #ffffff !important;
+}
+
+#experience .timeline-date {
+  color: #cbd5e1 !important;
+}
+
+#experience p {
+  color: #e2e8f0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* About Me Section Background */
+#about,
+#about.section {
+  background-color: transparent !important;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.45), rgba(15, 23, 42, 0.45)), url('about me section.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* About Me Heading Clarity */
+#about .section-title,
+#about h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* About Card Glassmorphism Effect */
+#about .about-card {
+  background: rgba(15, 23, 42, 0.65) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+  color: #ffffff !important;
+}
+
+/* About Me Text & Highlights Colors */
+#about p, 
+#about strong {
+  color: #f8fafc !important;
+}
+
+#about .highlight-item {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 8px !important;
+  color: #ffffff !important;
+}
+
+#about .highlight-item h4 {
+  color: #38bdf8 !important;
+}
+
+#about .highlight-item span {
+  color: #cbd5e1 !important;
+}
+
+#about .highlight-item i {
+  color: #38bdf8 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Education Section Background */
+#education,
+#education.section {
+  background-color: transparent !important;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.45), rgba(15, 23, 42, 0.45)), url('education section.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* Education Heading Clarity */
+#education .section-title,
+#education h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Education Card Glassmorphism Effect */
+#education .education-card {
+  background: rgba(15, 23, 42, 0.65) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+  color: #ffffff !important;
+}
+
+/* Education Details & Text Colors */
+#education .edu-badge {
+  background: #38bdf8 !important;
+  color: #0f172a !important;
+  font-weight: 600 !important;
+}
+
+#education .degree, 
+#education h3 {
+  color: #38bdf8 !important;
+}
+
+#education .institution, 
+#education h4 {
+  color: #ffffff !important;
+}
+
+#education .edu-details span {
+  color: #e2e8f0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resume Section Background */
+#resume,
+#resume.section {
+  background-color: transparent !important;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.45), rgba(15, 23, 42, 0.45)), url('portfolio project image.avif') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* Resume Heading Clarity */
+#resume .section-title,
+#resume h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Resume Card Glassmorphism Effect */
+#resume .resume-card {
+  background: rgba(15, 23, 42, 0.65) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+  color: #ffffff !important;
+}
+
+/* Resume Text & Icon Colors */
+#resume h3 {
+  color: #38bdf8 !important;
+}
+
+#resume p {
+  color: #e2e8f0 !important;
+}
+
+#resume .resume-icon i {
+  color: #38bdf8 !important;
+}
